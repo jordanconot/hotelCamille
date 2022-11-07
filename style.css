@@ -24,7 +24,7 @@ body {
 }
 
 .header {
-  background: url("../developpement/assets/photos/accueil/header.jpg") no-repeat center/cover;
+  background: url("../img/header.jpg") no-repeat center/cover;
   width: 100%;
   height: 100%;
 }
@@ -98,7 +98,7 @@ body {
   justify-content: end;
 }
 .vertical-pic .vertical-pic-header {
-  background: url("../developpement/assets/photos/accueil/header-vertical.jpg") no-repeat center/cover;
+  background: url("../img/header-vertical.jpg") no-repeat center/cover;
   opacity: 1;
   height: 1517px;
   width: 25%;
@@ -191,19 +191,19 @@ body {
 }
 
 .param-pic1 {
-  background: url("../developpement/assets/photos/accueil/slideshow1.jpg") no-repeat center/cover;
+  background: url("../img/slideshow1.jpg") no-repeat center/cover;
   height: 509px;
   width: 100%;
 }
 
 .param-pic2 {
-  background: url("../developpement/assets/photos/accueil/slideshow2.jpg") no-repeat center/cover;
+  background: url("../img/slideshow2.jpg") no-repeat center/cover;
   height: 509px;
   width: 100%;
 }
 
 .param-pic3 {
-  background: url("../developpement/assets/photos/accueil/slideshow3.jpg") no-repeat center/cover;
+  background: url("../img/slideshow3.jpg") no-repeat center/cover;
   height: 509px;
   width: 100%;
 }
@@ -314,7 +314,7 @@ input:checked + input ~ input:before {
 .right-pic-swimmingpool {
   height: 1890px;
   width: 100%;
-  background: url("../developpement/assets/photos/accueil/services-vertical.jpg") no-repeat center/cover;
+  background: url("../img/services-vertical.jpg") no-repeat center/cover;
 }
 
 /*-------------------------------------------------------------VIDEO-------------------------------------------*/
@@ -326,7 +326,7 @@ input:checked + input ~ input:before {
 
 .video-service {
   position: relative;
-  background: url("../developpement/assets/photos/accueil/video.jpg") no-repeat center/cover;
+  background: url("../img/video.jpg") no-repeat center/cover;
   width: 884px;
   height: 499px;
 }
@@ -435,12 +435,12 @@ input:checked + input ~ input:before {
   transform: matrix(0, -1, 1, 0, 0, 0);
 }
 .flexs .pic-left {
-  background: url("../developpement/assets/photos/accueil/offre1.jpg") no-repeat center/cover;
+  background: url("../img/offre1.jpg") no-repeat center/cover;
   height: 603px;
   min-width: 40%;
 }
 .flexs .pic-right {
-  background: url("../developpement/assets/photos/accueil/offre2.jpg") no-repeat center/cover;
+  background: url("../img/offre2.jpg") no-repeat center/cover;
   height: 603px;
   min-width: 40%;
 }
