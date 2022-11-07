@@ -26,6 +26,7 @@ body {
   }
 }
 .header {
+  background-image: url('/img/header.jpg');
   background-size: cover;
   background-position: center;
     
@@ -84,8 +85,6 @@ body {
 
   .subtitle {
     color: white;
-    letter-spacing: 0px;
-    opacity: 1;
     text-align: left;
     font: normal normal normal 20px/32px "Quicksand";
   }
@@ -98,9 +97,9 @@ body {
   justify-content: end;
 
   .vertical-pic-header {
-    background: url('../img/header-vertical.jpg')
-      no-repeat center / cover;
-    opacity: 1;
+    background-image: url('../img/header-vertical.jpg');
+    background-position: center;
+    background-size: cover;
     height: 1517px;
     width: 25%;
   }
@@ -119,7 +118,6 @@ body {
   right: 50px;
   width: 190px;
   height: 132px;
-  opacity: 1;
 }
 .reserve {
   margin-left: 45px;
@@ -128,7 +126,6 @@ body {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 2.84px;
-  opacity: 1;
   font: normal normal medium 14px/32px "Quicksand";
 }
 
@@ -193,20 +190,23 @@ body {
   margin-top: 150px;
 }
 .param-pic1 {
-  background: url('../img/slideshow1.jpg')
-    no-repeat center / cover;
+  background-image: url('../img/slideshow1.jpg');
+  background-position: center;
+  background-size: cover;
   height: 509px;
   width: 100%;
 }
 .param-pic2 {
-  background: url('../img/slideshow2.jpg')
-    no-repeat center / cover;
+  background-image: url('../img/slideshow2.jpg');
+  background-position: center;
+  background-size: cover;
   height: 509px;
   width: 100%;
 }
 .param-pic3 {
-  background: url('../img/slideshow3.jpg')
-    no-repeat center / cover;
+  background-image: url('../img/slideshow3.jpg');
+  background-size: cover;
+  background-position: center;
   height: 509px;
   width: 100%;
 }
@@ -315,8 +315,9 @@ input:checked + input ~ input:before {
 .right-pic-swimmingpool {
   height: 1890px;
   width: 100%;
-  background: url('../img/services-vertical.jpg')
-    no-repeat center / cover;
+  background-image: url('../img/services-vertical.jpg');
+  background-position: center;
+  background-size: cover;
 }
 
 /*-------------------------------------------------------------VIDEO-------------------------------------------*/
@@ -327,8 +328,9 @@ input:checked + input ~ input:before {
 }
 .video-service {
   position: relative;
-  background: url('../img/video.jpg') no-repeat
-    center / cover;
+  background-image: url('../img/video.jpg');
+  background-position: center;
+  background-size: cover;
   width: 884px;
   height: 499px;
 }
@@ -438,14 +440,16 @@ input:checked + input ~ input:before {
     }
   }
   .pic-left {
-    background: url('../img/offre1.jpg')
-      no-repeat center / cover;
+    background-image: url('../img/offre1.jpg');
+    background-position: center;
+    background-size: cover;
     height: 603px;
     min-width: 40%;
   }
   .pic-right {
-    background: url('../img/offre2.jpg')
-      no-repeat center / cover;
+    background-image: url('../img/offre2.jpg');
+    background-position: center;
+    background-size: cover;
     height: 603px;
     min-width: 40%;
   }
@@ -458,6 +462,7 @@ input:checked + input ~ input:before {
   align-items: center;
   height: 362px;
   width: 100%;
+  
   .logo-footer {
     width: 217px;
     height: 135px;
