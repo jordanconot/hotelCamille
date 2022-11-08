@@ -26,7 +26,7 @@ body {
   }
 }
 .header {
-  background-image: url("/img/header.jpg");
+  background-image: url("./img/header.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -97,7 +97,7 @@ body {
   justify-content: end;
 
   .vertical-pic-header {
-    background-image: url('../img/header-vertical.jpg');
+    background-image: url('./img/header-vertical.jpg');
     background-position: center;
     background-size: cover;
     height: 1390px;
@@ -189,21 +189,21 @@ body {
   margin-top: 150px;
 }
 .param-pic1 {
-  background-image: url('../img/slideshow1.jpg');
+  background-image: url('./img/slideshow1.jpg');
   background-position: center;
   background-size: cover;
   height: 509px;
   width: 100%;
 }
 .param-pic2 {
-  background-image: url('../img/slideshow2.jpg');
+  background-image: url('./img/slideshow2.jpg');
   background-position: center;
   background-size: cover;
   height: 509px;
   width: 100%;
 }
 .param-pic3 {
-  background-image: url('../img/slideshow3.jpg');
+  background-image: url('./img/slideshow3.jpg');
   background-size: cover;
   background-position: center;
   height: 509px;
@@ -314,7 +314,7 @@ input:checked + input ~ input:before {
 .right-pic-swimmingpool {
   height: 1885px;
   width: 100%;
-  background-image: url('../img/services-vertical.jpg');
+  background-image: url('./img/services-vertical.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -327,7 +327,7 @@ input:checked + input ~ input:before {
 }
 .video-service {
   position: relative;
-  background-image: url('../img/video.jpg');
+  background-image: url('./img/video.jpg');
   background-position: center;
   background-size: cover;
   width: 884px;
@@ -439,14 +439,14 @@ input:checked + input ~ input:before {
     }
   }
   .pic-left {
-    background-image: url('../img/offre1.jpg');
+    background-image: url('./img/offre1.jpg');
     background-position: center;
     background-size: cover;
     height: 603px;
     min-width: 40%;
   }
   .pic-right {
-    background-image: url('../img/offre2.jpg');
+    background-image: url('./img/offre2.jpg');
     background-position: center;
     background-size: cover;
     height: 603px;
